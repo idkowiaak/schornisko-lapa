@@ -27,8 +27,8 @@ Przejrzyste menu prowadzące do wszystkich podstron:
 
 ### 💻 Demo
 
-schronisko-lapa.netlify.app
-
+[schronisko-lapa.netlify.app
+](https://schronisko-lapa.netlify.app/)
 ---
 
 ## 📄 Podstrony
