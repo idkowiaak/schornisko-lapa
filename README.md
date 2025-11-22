@@ -25,12 +25,13 @@ Przejrzyste menu prowadzące do wszystkich podstron:
 
 ---
 
-#DEMO
+### 💻 Demo
 
 schronisko-lapa.netlify.app
 
 ---
 
+## 📄 Podstrony
 
 ### 🐶 Adopcje (FAQ)
 
