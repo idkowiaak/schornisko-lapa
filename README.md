@@ -90,7 +90,7 @@ Trzy główne sekcje edukacyjne:
 ---
 
 ## 📁 Struktura projektu
-
+```
 📂 projekt-schronisko
 ├── index.html
 ├── aboutUs.html
@@ -106,7 +106,7 @@ Trzy główne sekcje edukacyjne:
 ├── cat2.webp
 ├── dog1.jpg
 ├── ...
-
+```
 ---
 
 ## ▶️ Uruchomienie
