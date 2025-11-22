@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website - schronisko</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="nav-container">
+        <div class="left-side-nav">
+          <div class="logo"><a href="index.html">🐾</a></div>
+        </div>
+        <div class="right-side-nav">
+          <ul>
+            <li class="nav-item"><a href="index.html">Home</a></li>
+            <li class="nav-item"><a href="updates.html">Aktualności</a></li>
+            <li class="nav-item"><a href="adoption.html">Adopcje</a></li>
+            <li class="nav-item"><a href="education.html">Edukacja</a></li>
+            <li class="nav-item"><a href="howToHelp.html">Jak Pomóc</a></li>
+            <li class="nav-item"><a href="aboutUs.html">O nas</a></li>
+            <li class="nav-item active"><a href="contact.html">Kontakt</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main id="contact-page-content">
+      <div class="all-content-contact fade-in">
+        <h2>Skontaktuj się z nami!</h2>
+        <div class="contact-page-container">
+          <div class="left-side-contact-page">
+            <div class="adress">
+              <span>Schronisko dla Zwierząt „Łapa”</span>
+              ul. Leśnej Polany 24 42-618 Nowe Zagórze
+            </div>
+            <div class="phone-number">Telefon: 789 432 115</div>
+            <div class="email-adress">E-mail: kontakt@schroniskolapa.org</div>
+            <div class="opens-hours">
+              <h4>Godziny otwarcia</h4>
+              <ul>
+                <li>Pon-Pt: 9:00 - 17: 00</li>
+                <li>Sobota: 10:00 - 15:00</li>
+                <li>Niedziela: 10:00 - 13:00</li>
+              </ul>
+            </div>
+            <div class="others">NIP: 541-22-77-981</div>
+            <div class="others">REGON: 023984512</div>
+            <div class="others">KRS: 0000912745</div>
+          </div>
+          <div class="right-side-page-container">
+            <form action="#" method="post">
+              <label for="email">Twój e-mail:</label>
+              <input type="email" id="email" name="email" required />
+
+              <label for="phone">Twój telefon:</label>
+              <input type="tel" id="phone" name="phone" />
+
+              <label for="message">Wiadomość:</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="6"
+                required
+              ></textarea>
+
+              <button type="submit" id="Send-message-btn">
+                Wyślij wiadomość
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="slogan">
+          "<span>Każdy</span> zasługuje na dom. Pomóż nam go znaleźć."
+        </div>
+      </div>
+      <div class="cookies-banner" id="cookies-banner">
+        <p>
+          Ta strona korzysta z plików cookies, aby poprawić jakość korzystania z
+          serwisu. Kontynuując przeglądanie, akceptujesz ich użycie.
+        </p>
+        <button id="accept-cookies">Akceptuję</button>
+      </div>
+    </main>
+    <footer class="footer-container">
+      <div class="col">
+        <h3>O nas</h3>
+        <p>
+          Jesteśmy schroniskiem, które od lat zapewnia opiekę i dom
+          potrzebującym zwierzętom. Każde zwierzę zasługuje na miłość i
+          bezpieczny dom — razem pomagamy im znaleźć szczęście.
+        </p>
+      </div>
+
+      <div class="col">
+        <ul>
+          <h3>Nasze schroniska</h3>
+          <li class="shelter"><a href="#">Schronisko Poznań</a></li>
+          <li class="shelter"><a href="#">Schronisko Gorzów</a></li>
+          <li class="shelter"><a href="#">Schronisko Rokietnica</a></li>
+          <li class="shelter"><a href="#">Schronisko Rzeszów</a></li>
+          <li class="shelter"><a href="#">Schronisko Kraków</a></li>
+        </ul>
+      </div>
+
+      <div class="col">
+        <h3>Newsletter</h3>
+        <div class="newsletter-container">
+          <input
+            type="email"
+            placeholder="Wprowadź swój email"
+            class="input-email"
+          />
+          <button class="newsletter-order-btn">Zapisz się</button>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
