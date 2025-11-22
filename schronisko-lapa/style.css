@@ -893,7 +893,7 @@ header {
   /*updates.html responsive*/
 
   .articles-grid {
-    grid-template-columns: repeat(1, 370px);
+    grid-template-columns: repeat(1, 270px);
   }
 
   /*footer responsive*/
@@ -963,13 +963,14 @@ header {
   }
 
   .box {
-    padding: 1.5rem 0.8rem;
+    padding: 1rem 0.5rem;
     border-radius: 20px;
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
     transform: none;
+    margin-bottom: 10px;
   }
 
-  .kafelki img {
+  .cards img {
     width: 100%;
     height: auto;
   }
